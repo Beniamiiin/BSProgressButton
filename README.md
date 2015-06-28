@@ -1,9 +1,18 @@
 # BSProgressButton
-Progress button
 
 ![Image](http://i.giphy.com/xTiTnhUMvbHZTdkTp6.gif)
 
-# Cocoapods
+### Cocoapods
 ```
 pod 'BSProgressButtonView',  :git => 'https://github.com/BenjaminSarkisyan/BSProgressButton'
+```
+
+### How to use
+1. Setup in storyboard
+2. Init in code
+```
+CGRect frame = CGRectMake(10.f, 10.f, 300.f, 50.f);
+BSProgressButtonView *progressButtonView = [BSProgressButtonView progressButtonWithFrame:frame completionBlock:^{
+    
+}];
 ```
