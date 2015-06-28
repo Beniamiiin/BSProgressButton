@@ -8,8 +8,8 @@ pod 'BSProgressButtonView',  :git => 'https://github.com/BenjaminSarkisyan/BSPro
 ```
 
 ### How to use
-1. Setup in storyboard
-2. Init in code
+Setup in storyboard or init in code
+
 ```
 CGRect frame = CGRectMake(10.f, 10.f, 300.f, 50.f);
 BSProgressButtonView *progressButtonView = [BSProgressButtonView progressButtonWithFrame:frame completionBlock:^{
