@@ -4,7 +4,7 @@
 
 ### Cocoapods
 ```
-pod 'BSProgressButtonView',  :git => 'https://github.com/BenjaminSarkisyan/BSProgressButton'
+pod 'BSProgressButtonView',  :git => 'https://github.com/BenjaminSarkisyan/BSProgressButton.git'
 ```
 
 ### How to use
